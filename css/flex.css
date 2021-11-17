@@ -6,8 +6,11 @@
   margin: 0 auto;
   display: flex;
 }
-.services {
+section {
   padding-top: 110px;
+}
+.services {
+  display: flex;
 }
 .info,
 .serv {
@@ -23,11 +26,17 @@
 .logo,
 .animation {
   width: calc(100% / 2);
-  padding: 15px;
+}
+.management,
+.logo {
+  padding-right: 50px;
+}
+.management,
+.ui {
+  margin-bottom: 53px;
 }
 .info {
   vertical-align: top;
-  padding: 17px;
   padding-right: 110px;
 }
 .title {
@@ -45,7 +54,7 @@
 .serv h4 {
   margin-bottom: 23px;
 }
-a:link {
+a {
   color: #ff3b4a;
   text-decoration: none;
   border: 2px solid #ff3b4a;
