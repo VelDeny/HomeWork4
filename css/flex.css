@@ -15,7 +15,6 @@ section {
 .info,
 .serv {
   width: calc(100% / 2);
-  padding: 15px;
 }
 .serv {
   display: flex;
